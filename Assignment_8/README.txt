@@ -1,0 +1,1 @@
+This packege parses through http://checkip.dyndns.org/ to get the current IP address.

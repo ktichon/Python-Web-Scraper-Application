@@ -1,0 +1,1 @@
+print("Path to follow from Start [1, 1] to Exit [7, 11] - 17 steps:\n[1, 1]\n[1, 2]\n[1, 3]\n[1, 4]\n[1, 5]\n[2, 5]\n[3, 5]\n[3, 6]\n[3, 7]\n[3, 8]\n[3, 9]\n[4, 9]\n[5, 9]\n[6, 9]\n[6, 10]\n[6, 11]\n[7, 11]\n" + "WWWWWWWWWWWWW\nW.....WVVVVVW\nWVWWW.WVWWWVW\nWVWVV.....W W\nWVWWWWWWW.WWW\nWVVVWVVVW.VVW\nWWWVWVWWW...W\nWVVVVVWVVVWEW\nWVWWWWW WVWWW\nWVVVVV  WV  W\nWWWWWWWWWWWWW")

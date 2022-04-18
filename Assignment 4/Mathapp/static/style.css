@@ -1,0 +1,9 @@
+body {
+  background: blue;
+  color: yellow;
+  margin: 0px, auto;
+}
+h1, .content{
+  margin: auto;
+  text-align: center;
+}

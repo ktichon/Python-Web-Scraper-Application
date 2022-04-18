@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/static/style.css" />
+    <title>Assignment 4</title>
+  </head>
+  <body>
+    <h1>MyMath Web Application</h1>
+
+    <div class="content">
+      <form method="POST">
+        <input type="text" readonly id="numbers" name="numbers">
+        <input type="number" id="numToAdd" value="0">
+        <input type="button" onclick="addNumber()" value="Add Number">
+
+        <input type="submit" value="Calculate">
+      </form>
+
+      <ol>
+        <ul>
+          <p>Max: {{ max }} </p>
+        </ul>
+        <ul>
+          <p>Average: {{ avg }} </p>
+        </ul>
+        <ul>
+          <p>Standard Dev: {{ stddev }} </p>
+        </ul>
+      </ol>
+    </div>
+
+  </body>
+  <script>
+    let numbersToCal = [];
+    function addNumber(){
+
+      let num = document.getElementById('numToAdd').value;
+
+      numbersToCal.push(Number(num));
+      document.getElementById('numbers').value = numbersToCal;
+
+    }
+  </script>
+</html>
