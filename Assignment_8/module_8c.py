@@ -15,12 +15,12 @@ class GetAfterHTMLParser(HTMLParser):
     def handle_data(self, data):
         if self.stringBefore in data:
             self.ip = data.removeprefix(self.stringBefore).strip()
-            if __name__ == "__main__":
-                print(self.ip)
     def getIp(self):
         return self.ip
 
-myparser = GetAfterHTMLParser("Current IP Address:")
-with urllib.request.urlopen('http://checkip.dyndns.org/') as response:
-    html = str(response.read())
-myparser.feed(html)
+if __name__ == "__main__":
+    myparser = GetAfterHTMLParser("Current IP Address:")
+    with urllib.request.urlopen('http://checkip.dyndns.org/') as response:
+        html = str(response.read())
+    myparser.feed(html)
+    print(myparser.getIp())

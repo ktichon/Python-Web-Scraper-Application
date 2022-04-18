@@ -1,0 +1,26 @@
+2021-12-11 16:39:32,584 - main - INFO - Main Application WeatherProcessor Started
+2021-12-11 16:46:34,606 - main - INFO - Main Application WeatherProcessor Started
+2021-12-11 16:49:07,517 - main - INFO - Main Application WeatherProcessor Started
+2021-12-11 16:52:49,226 - main - INFO - Main Application WeatherProcessor Started
+2021-12-11 16:59:57,645 - main - INFO - Main Application WeatherProcessor Started
+2021-12-11 17:10:37,941 - main - INFO - Main Application WeatherProcessor Started
+2021-12-11 17:11:29,843 - main - INFO - Main Application WeatherProcessor Started
+2021-12-11 17:11:36,683 - main - INFO - Main Application WeatherProcessor Started
+2021-12-11 17:11:45,708 - main.__main__ - ERROR - WeatherProcssor/Generate_Box_Plot: box_plot() takes 1 positional argument but 2 were given
+2021-12-11 17:12:01,637 - main - INFO - Main Application WeatherProcessor Started
+2021-12-11 17:37:18,239 - main - INFO - Main Application WeatherProcessor Started
+2021-12-11 18:26:12,653 - main - INFO - Main Application WeatherProcessor Started
+2021-12-11 18:30:58,411 - main - INFO - Main Application WeatherProcessor Started
+2021-12-11 18:31:15,184 - main.plot_operations - ERROR - PlotOperations/box_plot/plotting: list index out of range
+2021-12-11 18:32:46,924 - main - INFO - Main Application WeatherProcessor Started
+2021-12-12 13:38:28,257 - main - INFO - Main Application WeatherProcessor Started
+2021-12-12 13:38:36,411 - main.db_operations - ERROR - DBOperations/get_most_recent: 'NoneType' object is not subscriptable
+2021-12-12 13:38:36,412 - main.__main__ - ERROR - WeatherProcessor/Update Weather: can only concatenate str (not "NoneType") to str
+2021-12-12 13:38:44,156 - main.db_operations - ERROR - DBOperations/get_most_recent: 'NoneType' object is not subscriptable
+2021-12-12 13:38:44,156 - main.__main__ - ERROR - WeatherProcessor/Update Weather: can only concatenate str (not "NoneType") to str
+2021-12-12 13:38:56,573 - main - INFO - Main Application WeatherProcessor Started
+2021-12-12 13:39:18,300 - main.db_operations - ERROR - DBOperations/get_most_recent: 'NoneType' object is not subscriptable
+2021-12-12 13:39:18,301 - main.__main__ - ERROR - WeatherProcessor/Update Weather: can only concatenate str (not "NoneType") to str
+2021-12-12 13:43:10,175 - main - INFO - Main Application WeatherProcessor Started
+2021-12-12 13:47:36,329 - main - INFO - Main Application WeatherProcessor Started
+2021-12-14 13:04:32,074 - main - INFO - Main Application WeatherProcessor Started
